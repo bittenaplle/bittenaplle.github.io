@@ -1,0 +1,381 @@
+/*--------font--------*/
+    body, h3{
+        font-family: GothamPro, sans-serif;
+    }
+
+    .navbar-light .navbar-nav .nav-link, .carousel-caption h2 {
+        font-family: GothamRounded, sans-serif;
+    }
+/*---------------------*/
+
+.pl-0{
+    padding-left: 0;
+}
+
+@media (max-width: 991px){
+    .show-smol{
+        display: block;
+    }
+
+    .show-large{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .show-large{
+        display: block;
+    }
+
+    .show-smol{
+        display: none;
+    }
+}
+
+/*--------button---------*/
+    .btn{
+        margin-bottom: 1rem;
+    }
+
+    .btn-aqua{
+        background-color: #04a4e4;
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    .btn-aqua:hover{
+        background-color: rgba(110, 202, 213,1);  
+        color: #fff;
+    }
+
+    .btn-outline-aqua{
+        border: 1px solid #04a4e4;
+        color: #6AACD0;
+        transition: 0.5s;
+    }
+
+    .btn-outline-aqua:hover{
+        background-color: #04a4e4;  
+        color: #fff;
+    }
+
+    .btn-wrap{
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-full{
+        width: 100%;
+    }
+
+    input{
+        border: 1px solid gray;
+    }
+/*--------END button---------*/
+
+/*--------text---------*/
+    h2{
+        font-size: 2.5rem;
+        text-align: center;
+        color: #373f41;
+        margin-bottom: 2rem;
+    }
+
+    h3{
+        font-size: 2.0rem;
+    }
+    
+    p, .howto ol li{
+        color: #737b7d;
+    }
+
+    .txt-blue{
+        color: #04a4e4;
+    }
+
+    .txt-white{
+        columns: #fff !important; 
+    }
+
+    .txt-xs{
+        font-size: .66rem;
+        font-weight: 200;
+    }
+
+    .txt-italic{
+        font-style: italic;
+        font-weight: 200;
+    }
+
+/*--------section--------*/
+
+    .section{
+        padding: 5rem 0;
+    }
+
+    .section-aqua{
+        background-color: #d2f2ff;
+        background-image: url('../images/bg-aqua.jpg');
+        background-size: cover;
+    }
+
+    .section-blue{
+        color: #fff;
+        background-color: #0e99d4;
+        background-image: url('../images/bg-blue-illus.jpg');
+    }
+
+    @media (max-width: 991px){ 
+        .section-blue{
+            background-image: url('../images/bg-blue-illus-sm.jpg');
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    }
+
+    .section-white{
+        padding: 4rem 0;
+    }
+
+    .section-soft{
+        /*background-color: rgba(115, 123, 125, 0.06);*/
+        background-color: #f0fafd;
+    }
+/*--------END section--------*/
+
+/*--------navbar--------*/
+    .navbar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        z-index: 3;
+    }
+
+    @media (max-width: 991px){
+        .navbar {
+            background-color: #fff;
+        }
+
+        .nav-item{
+            padding-top: 1rem;
+            text-align: right;
+        }
+    }
+
+    .navbar-brand img{
+        width: 150px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #6AACD0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #808080;
+    }
+
+    @media (min-width: 992px){
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 1.0rem;
+            padding-left: 1.0rem;
+        }
+    }
+
+    .bg-grad{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(23,23,23,0));
+    }
+/*--------END navbar---------*/
+
+/*--------hero--------*/
+    #hero{
+        margin-top: -75px;
+    }
+
+    .carousel-caption{
+        color: #808080;
+        text-align: left;
+        padding-bottom: 100px;
+    }
+
+    
+    .hero-h2{
+        text-align: left;
+    }
+
+    @media (max-width: 991px){
+        .carousel-caption{
+            padding-bottom: 20px;
+        }
+
+        .hero-h2{
+            font-size: 1.75rem;
+        }
+
+        .hero-txt{
+            font-size: .75rem;
+        }
+    }
+
+    .carousel-caption h2{
+        color:rgba(0, 0, 0,.7);
+        font-weight: 600;
+    }
+
+    .carousel-caption p{
+        font-weight: 200;
+    }
+    .carousel-indicators-left {
+        justify-content: left;
+    }
+
+    .carousel-indicators-bullet [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        background-color: #04a4e4;
+        border-radius: 5px;
+    }
+
+/*--------END hero---------*/
+
+    .carousel-indicators img{ 
+    }
+
+    a{
+        color: #6AACD0;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+      }
+
+    .carousel-control-prev-icon-circle {
+        background-image: url("../images/elements/arrow_left.png");
+    }
+
+    .carousel-control-next-icon-circle {
+        background-image: url("../images/elements/arrow_right.png");
+    }
+
+    @media (max-width: 991px){
+        .detail-txt{
+            min-height: 400px;
+        }
+    }
+
+/*--------higienisme---------*/
+    .higienisme-txt{
+        padding-top: 350px;
+        padding-bottom: 100px;
+    }
+    
+    @media (max-width: 991px){
+        .higienisme-txt{
+            padding-bottom: 500px;
+            padding-top: 100px;
+        }
+    }
+
+/*--------END higienisme---------*/
+
+/*--------testimonial---------*/
+
+    .testimonial-wrap{
+        padding-top: 2rem;
+    }
+
+    .testi-wrap{
+        margin-top: 2rem;
+    }
+    .testi-txt, .testi-people, .testi-as{
+        text-align: center;
+        color: #737B7D;
+    }
+
+    .testi-txt{
+        padding: 2rem;
+        border-radius: 2rem;
+        background: #FFFFFF;
+        box-shadow: 0px 15.5162px 31.0324px rgba(212, 217, 232, 0.4);
+        position: relative;
+    }
+    
+    .testi-txt:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: #fff;
+        border-bottom: 0;
+        border-left: 0;
+        margin-left: -10px;
+        margin-bottom: -15px;
+    }
+
+    .testi-photo{
+        margin: 1.25rem;
+    }
+
+    .testi-photo img{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    .testi-people{
+        font-size: 125%;
+        color: #373F41;
+    }
+/*--------END testimonial---------*/
+
+.howto{
+    padding: 1.5rem;
+}
+
+.benefit-wrap, .howto{
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+
+.awards-logo-wrap, .social-wrap {
+    text-align: center;
+}
+
+.awards-logo-wrap img{
+    margin: .75rem .5rem;
+}
+
+.social-wrap {
+    padding-top: 4rem;
+}
+
+.social-wrap img
+{
+    margin: .5rem;
+}
+
+.social-li{
+    background-color: #6AACD0;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    padding-left: 4px;
+    margin: 0 .5rem;
+    transition: 0.5s;
+}
+
+.social-li:hover{
+    background-color: #76bce2;  
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 2rem;
+    color: #737b7d;
+    font-size: .8rem;
+    font-weight: 400;
+}
