@@ -1,0 +1,92 @@
+
+
+
+.navbar{
+    /*background: linear-gradient(90deg, #fcbdb8 50%, #f94f58 50%);*/
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-nav{
+    /*background-color: #f94f58;*/
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.section-red{
+    background-color: #f94f58;
+    color: #fff;
+}
+
+.section-white{
+    background-color: #fff;
+    color: #007fc6;
+}
+
+h1, h2{
+    font-size: 3.5rem;
+}
+
+h1{
+    letter-spacing: 1px;
+    font-family: 'San Francisco', sans-serif;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+#hero{
+    height: 100vh;
+}
+
+.txt-float{
+    position: relative;
+    z-index: 2;
+    padding-top: 5rem;
+    margin-right: -300px;
+}
+
+@media (max-width: 991px){
+    .txt-float{
+        padding-top: 5rem;
+        margin-right: 0;
+    }
+
+    .txt-float h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+@media (max-width: 991px){
+    .img-float-1{
+        margin-top: -500px;
+        margin-right: -100px;
+    }
+
+    .img-float-2{
+        display: none;
+    }
+}
+
+.img-float-3{
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 991px){
+    .about-left{
+        padding-top: 2rem;
+    }
+}
